@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px;
+    background-color: #141414;
+  }
+  
+  .nav-logo {
+    height: 45px;
+    object-fit: contain;
+  }
+  
+  .avatar {
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .nav-logo:hover,
+  .avatar:hover {
+    opacity: 0.8;
+  }
+  
